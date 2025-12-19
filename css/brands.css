@@ -1,0 +1,52 @@
+/* Brand Button Styles */
+
+/* Telegram */
+.button-telegram {
+  background-color: #0088cc;
+  color: #ffffff;
+}
+
+.button-telegram:hover {
+  background-color: #0077b5;
+}
+
+/* GitHub */
+.button-github {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .button-github {
+    background-color: #f0f0f0;
+    color: #333333;
+  }
+
+  .button-github:hover {
+    background-color: #e0e0e0;
+  }
+
+  .button-github .icon {
+    filter: invert(1);
+  }
+}
+
+.button-github:hover {
+  background-color: #444444;
+}
+
+@media (prefers-color-scheme: dark) {
+  .button-github:hover {
+    background-color: #e0e0e0;
+  }
+}
+
+/* Email */
+.button-email {
+  background-color: #ea4335;
+  color: #ffffff;
+}
+
+.button-email:hover {
+  background-color: #d33426;
+}
